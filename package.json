@@ -1,0 +1,22 @@
+{
+  "name": "@einys/commitlint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commitlint.config.js",
+  "scripts": {
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:dry": "standard-version --dry-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.0.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "standard-version": "^9.5.0"
+  }
+}
