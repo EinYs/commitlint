@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "commitlint.config.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "release": "standard-version",
     "release:patch": "standard-version --release-as patch",
