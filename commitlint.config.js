@@ -8,7 +8,7 @@ const Configuration = {
      * Any rules defined here will override rules from @commitlint/config-conventional
      */
     rules: {
-      'type-enum': [2, 'always', ['Feat', 'Design', 'Style', 'Refactor', "Comment", "Doc", "Test", "Chore", "Rename", "Remove"]],
+      'type-enum': [2, 'always', ['Feat', 'Design', 'Fix', 'Style', 'Refactor', "Comment", "Doc", "Test", "Chore", "Rename", "Remove"]],
       'type-case': [2, 'always', 'pascal-case'],
       'subject-case': [
         0, // disabled. 나한테 영어 커밋 내용 형식이 대문자던 소문자던 무슨 상관이겠어!
